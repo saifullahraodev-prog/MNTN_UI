@@ -31,7 +31,7 @@ body {
 .main-container {
     margin: 0px auto;
     position: relative;
-    max-width: 1500px;
+    max-width: 1550px;
     min-width: 1450px;
 }
 
@@ -71,6 +71,7 @@ body {
 
 
 .nav {
+    
     padding: 64px 80px;
 
     display: flex;
@@ -405,4 +406,49 @@ body {
     position: absolute;
     top: 3040px;
     left: 180px;
+}
+
+/* FOOTER SECTION  */
+
+.main-footer{
+    margin-left: 230px;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 370px;
+}
+.copyright{
+    margin-top: 125px;
+    /* color: #c0bdbd; */
+    font-family: Gilroy-regular;
+    font-weight: 500;
+    opacity: 50%;
+}
+#p-one{
+    margin-top: 25px;
+    width: 290px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Gilroy-regular;
+    font-weight: 700;
+}
+.foot-group{
+    display: flex;
+    gap: 170px;
+}
+.foot-middle p{
+ padding-bottom: 25px;
+ font-family: Gilroy-regular;
+ font-weight: 500;
+}
+.foot-right p{
+ padding-bottom: 25px;
+  font-family: Gilroy-regular;
+ font-weight: 500;
+}
+
+#mid-top,#rig-top{
+    font-size: 20px;
+    font-family: Gilroy-regular;
+    font-weight: 700;
+    color: #FBD784;
 }
