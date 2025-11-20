@@ -19,6 +19,7 @@
     box-sizing: border-box;
 
     line-height: 1;
+    scroll-behavior: smooth;
 }
 
 
@@ -251,6 +252,7 @@ body {
     position: absolute;
     top: 1100px;
     width: 99vw;
+    max-width: 1550px;
     z-index: -1;
 }
 
@@ -451,4 +453,22 @@ body {
     font-family: Gilroy-regular;
     font-weight: 700;
     color: #FBD784;
+}
+.hover{
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.hover:hover{
+    transform: scale(1.2);
+}
+
+.hover-one{
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.hover-one:hover{
+    transform: scale(1.1);
+    color: rgb(187, 180, 180);
 }
